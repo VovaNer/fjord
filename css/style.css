@@ -7,6 +7,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 14px;
+  height: 100%;
 }
 a, a:link, a:visited {
   color: inherit;
@@ -53,6 +54,9 @@ a, a:link, a:visited {
 }
 .benefits-wrapper {
   align-items: center;
+}
+.benefits-block {
+  margin-top: 50px;
 }
 .benefits-block-title {
   font-size: 16px;
@@ -151,4 +155,21 @@ a, a:link, a:visited {
 }
 .build-text {
   margin: 0 auto;
+}
+/* Change Monitor Section */
+.change-block-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.change-block-text {
+  margin-left: 5px;
+  width: 90%;
+}
+.change-wrapper {
+  justify-content: space-around;
+}
+.change-block-textMargin {
+  margin-bottom: 36.8px;
 }
