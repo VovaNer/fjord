@@ -94,7 +94,7 @@ a, a:link, a:visited {
 .iPhone {
   padding: 130px 0;
   background: #26e6e6 url('../img/iPhone.png') left center no-repeat;
-  background-size: 65% 85%;
+  background-size: 60% 85%;
   background-position: 15% 50%;
 }
 .iPhone-block {
@@ -121,16 +121,34 @@ a, a:link, a:visited {
   padding-left: 90px;
 }
 .iPhone-block-part1 {
-    background: url('../img/browsers.png') left top no-repeat;
+  background: url('../img/browsers.png') left top no-repeat;
 }
 .iPhone-block-part2 {
-    background: url('../img/briefcase.png') left top no-repeat;
+  background: url('../img/briefcase.png') left top no-repeat;
 }
 .iPhone-block-part3 {
-    background: url('../img/edit.png') left top no-repeat;
+  background: url('../img/edit.png') left top no-repeat;
 }
 .iPhone-btn {
   width: 100%;
   border-radius: 0;
   height: 60px;
+}
+/* BuildIt Section */
+.build {
+  padding: 120px 0;
+}
+.build h1 {
+  font-size: 72px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.build p {
+  font-size: 18px;
+  width: 65%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.build-text {
+  margin: 0 auto;
 }
