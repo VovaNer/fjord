@@ -92,15 +92,20 @@ a, a:link, a:visited {
 }
 /* iPhone Section */
 .iPhone {
-  padding: 50px 0;
+  padding: 130px 0;
   background: #26e6e6 url('../img/iPhone.png') left center no-repeat;
-  background-size: 60% 80%;
+  background-size: 65% 85%;
+  background-position: 15% 50%;
 }
 .iPhone-block {
-  margin: 80px 15% 0 auto;
-  box-sizing: padding-box;
+  margin: 0 200px 0 auto;
   background-color: #fff;
   padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  .iPhone-block {
+    margin: 0 auto;
+  }
 }
 .iPhone-block h3 {
   font-size: 18px;
@@ -128,9 +133,4 @@ a, a:link, a:visited {
   width: 100%;
   border-radius: 0;
   height: 60px;
-}
-@media only screen and (max-width 991px) {
-  .iPhone-block {
-    margin: 0 auto;
-  }
 }
