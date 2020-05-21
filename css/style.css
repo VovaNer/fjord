@@ -59,6 +59,18 @@ a, a:link, a:visited {
   margin-top: 50px;
 }
 .benefits-block-title {
+  display: inline-block;
+}
+.benefits-block-title-status {
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: #26e6e6;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 100;
+  color: #fff;
+}
+.benefits-block-title {
   font-size: 16px;
   text-transform: uppercase;
   width: 70%;
