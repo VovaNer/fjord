@@ -22,8 +22,12 @@ a, a:link, a:visited {
 .navbar-nav li {
   display: inline-block;
 }
+.menu-list {
+  max-width: 700px;
+}
 .menu-list .nav-item {
   margin-right: 20px;
+  font-weight: 600;
 }
 .menu-list .nav-item:after {
   content: '';
