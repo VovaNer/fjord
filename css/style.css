@@ -57,10 +57,12 @@ a, a:link, a:visited {
   padding-bottom: 130px;
 }
 .benefits-wrapper {
-  align-items: center;
+
 }
 .benefits-block {
+  position: relative;
   margin-top: 50px;
+  min-height: 300px;
 }
 .benefits-block-title {
   display: inline-block;
@@ -87,7 +89,14 @@ a, a:link, a:visited {
   width: 90%;
   margin: 30px auto;
 }
+.benefits-block-text:last-child {
+  margin-top: 29px;
+}
 .benefits-block-url {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 5px 5px;
   font-size: 12px;
   font-weight: 600;
