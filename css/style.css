@@ -8,6 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 14px;
+  color: #232323;
 }
 a, a:link, a:visited {
   color: inherit;
@@ -239,19 +240,34 @@ a, a:link, a:visited {
   }
 }
 @media screen and (max-width: 576px) {
-  .change-block {
-    min-height: 140px;
-  }
-  .change-block-url {
-    left: 11%;
+  .change-block-title {
+    margin: 0 auto 20px;
   }
   .change-block-text {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .change-block {
+    min-height: 140px;
+    text-align: center;
+  }
+  .change-block-url {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
-@media screen and (max-width: 482px) {
+@media screen and (max-width: 541px) {
   .change-block {
     min-height: 180px;
+  }
+  .change-block-url {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 340px) {
+  .change-block {
+    min-height: 200px;
   }
   .change-block-url {
     left: 50%;
@@ -268,10 +284,7 @@ a, a:link, a:visited {
   width: 85%;
   margin: 0 auto;
   background-color: #000;
-  padding: 200px 100px;
-}
-.iPad-block {
-
+  padding: 200px 10px 200px 100px;
 }
 .iPad-block-title {
   font-size: 65px;
@@ -334,6 +347,67 @@ a, a:link, a:visited {
     display: none;
   }
   .iPad-block-text {
+    width: 100%;
+  }
+  .iPad-container {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .iPad-block-title {
+    font-size: 54px;
+  }
+}
+/* Features Section */
+.features {
+  padding-top: 250px;
+  background-color: #f5f6f8;
+}
+.features-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+}
+.features-grid {
+  margin-top: 60px;
+}
+.features-block {
+  padding-left: 80px;
+  margin-bottom: 80px;
+}
+.features-block h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.features-block p {
+  font-size: 14px;
+  width: 80%;
+}
+.features-block1 {
+  background: url('../img/gouge.png') left top no-repeat;
+}
+.features-block2 {
+  background: url('../img/chat.png') left top no-repeat;
+}
+.features-block3 {
+  background: url('../img/phone.png') left top no-repeat;
+}
+.features-block4 {
+  background: url('../img/adjustments.png') left top no-repeat;
+}
+.features-block5 {
+  background: url('../img/basket.png') left top no-repeat;
+}
+.features-block6 {
+  background: url('../img/chart.png') left top no-repeat;
+}
+@media screen and (max-width: 992px) {
+  .features-block p {
     width: 100%;
   }
 }
