@@ -368,6 +368,11 @@ a, a:link, a:visited {
   padding-top: 250px;
   background-color: #f5f6f8;
 }
+@media screen and (max-width: 768px) {
+  .features {
+    padding-top: 0;
+  }
+}
 .features-title {
   font-size: 12px;
   text-transform: uppercase;
