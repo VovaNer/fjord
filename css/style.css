@@ -57,9 +57,6 @@ a, a:link, a:visited {
 .benefits {
   padding-bottom: 130px;
 }
-.benefits-wrapper {
-
-}
 .benefits-block {
   position: relative;
   margin-top: 50px;
@@ -119,6 +116,14 @@ a, a:link, a:visited {
 .benefits-block3 {
   padding-top: 80px;
   background: url('../img/card.png') center top no-repeat;
+}
+@media only screen and (max-width: 767px) {
+  .benefits-block {
+    min-height: auto;
+  }
+  .benefits-block-text {
+    margin-bottom: 50px;
+  }
 }
 /* iPhone Section */
 .iPhone {
@@ -267,7 +272,7 @@ a, a:link, a:visited {
 }
 @media screen and (max-width: 340px) {
   .change-block {
-    min-height: 200px;
+    min-height: 210px;
   }
   .change-block-url {
     left: 50%;
@@ -409,5 +414,56 @@ a, a:link, a:visited {
 @media screen and (max-width: 992px) {
   .features-block p {
     width: 100%;
+  }
+}
+/* Review Section */
+.reviews {
+  background-color: #f5f6f8;
+  padding: 100px 0 200px;
+}
+.reviews-slider {
+  margin-left: -27px;
+}
+.reviews-slider-item {
+  margin-left: 27px;
+  padding: 30px 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.review-slider-item-inner {
+
+}
+.reviews-text {
+  margin: 0 auto;
+  font-size: 42px;
+  font-weight: 100;
+}
+.reviews-quote {
+  color: #ccc;
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.reviews-slider-item-author {
+  margin-top: 20px;
+}
+.reviews-quote-left {
+  text-align: left;
+}
+.reviews-quote-right {
+  text-align: right;
+}
+@media screen and (max-width: 992px) {
+  .reviews-slider-item p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .reviews-slider-item p {
+    font-size: 22px;
+    width: 100%;
+  }
+  .reviews-quote {
+    font-size: 32px;
   }
 }
