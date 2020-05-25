@@ -372,6 +372,9 @@ a, a:link, a:visited {
   .features {
     padding-top: 0;
   }
+  .iPad {
+    padding-bottom: 50px;
+  }
 }
 .features-title {
   font-size: 12px;
