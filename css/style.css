@@ -427,7 +427,7 @@ a, a:link, a:visited {
 /* Review Section */
 .reviews {
   background-color: #f5f6f8;
-  padding: 100px 0 200px;
+  padding: 100px 0 0 0;
 }
 .reviews-slider {
   margin-left: -27px;
@@ -473,5 +473,122 @@ a, a:link, a:visited {
   }
   .reviews-quote {
     font-size: 32px;
+  }
+}
+/* Gallery Section */
+.gallery {
+  padding: 100px 0;
+  background-color: #f5f6f8;
+  min-height: 1400px;
+}
+.gallery-title {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.gallery-grid {
+  position: relative;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+.gallery-block {
+  position: absolute;
+}
+.gallery-img {
+  width: 100%;
+}
+.gallery-img4 {
+  top: -15%;
+  left: 15%;
+}
+.gallery-img1 {
+  top: -10%;
+  left: 40.5%;
+}
+.gallery-img7 {
+  max-width: 900px;
+  top: 50%;
+  left: 19%;
+}
+.gallery-img5 {
+  right: 0;
+  top: 20%;
+}
+.gallery-img6 {
+  left: 0;
+  top: 60%;
+}
+.gallery-img2 {
+  left: 17.5%;
+  top: 80%;
+}
+.gallery-img3 {
+  left: 54%;
+  top: 85%;
+}
+@media screen and (max-width: 1350px) {
+  .gallery-img {
+    width: 90%;
+  }
+  .gallery-grid {
+    min-height: 90vh;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .gallery-img {
+    width: 80%;
+  }
+  .gallery-grid {
+    min-height: 80vh;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .gallery-img {
+    width: 70%;
+  }
+  .gallery-grid {
+    min-height: 70vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  .gallery-img {
+    width: 60%;
+  }
+  .gallery-grid {
+    min-height: 60vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery-img {
+    width: 50%;
+  }
+  .gallery-grid {
+    min-height: 50vh;
+  }
+}
+@media screen and (max-width: 680px) {
+  .gallery-img {
+    width: 40%;
+  }
+  .gallery-grid {
+    min-height: 40vh;
+  }
+}
+@media screen and (max-width: 520px) {
+  .gallery-img {
+    width: 30%;
+  }
+  .gallery-grid {
+    min-height: 30vh;
+  }
+}
+@media screen and (max-width: 420px) {
+  .gallery-img {
+    width: 20%;
+  }
+  .gallery-grid {
+    min-height: 20vh;
   }
 }
