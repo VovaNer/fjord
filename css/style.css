@@ -553,13 +553,19 @@ a, a:link, a:visited {
   .gallery-grid {
     min-height: 80vh;
   }
+  .gallery {
+    min-height: 1300px;
+  }
 }
 @media screen and (max-width: 1150px) {
   .gallery-img {
     width: 70%;
   }
   .gallery-grid {
-    min-height: 70vh;
+    min-height: 80vh;
+  }
+  .gallery {
+    min-height: 1150px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -569,6 +575,9 @@ a, a:link, a:visited {
   .gallery-grid {
     min-height: 60vh;
   }
+  .gallery {
+    min-height: 1000px;
+  }
 }
 @media screen and (max-width: 768px) {
   .gallery-img {
@@ -576,6 +585,9 @@ a, a:link, a:visited {
   }
   .gallery-grid {
     min-height: 50vh;
+  }
+  .gallery {
+    min-height: 850px;
   }
 }
 @media screen and (max-width: 680px) {
@@ -585,6 +597,9 @@ a, a:link, a:visited {
   .gallery-grid {
     min-height: 40vh;
   }
+  .gallery {
+    min-height: 800px;
+  }
 }
 @media screen and (max-width: 520px) {
   .gallery-img {
@@ -593,6 +608,9 @@ a, a:link, a:visited {
   .gallery-grid {
     min-height: 30vh;
   }
+  .gallery {
+    min-height: 700px;
+  }
 }
 @media screen and (max-width: 420px) {
   .gallery-img {
@@ -600,5 +618,8 @@ a, a:link, a:visited {
   }
   .gallery-grid {
     min-height: 30vh;
+  }
+  .gallery {
+    min-height: 600px;
   }
 }
