@@ -564,7 +564,7 @@ a, a:link, a:visited {
 }
 @media screen and (max-width: 992px) {
   .gallery-img {
-    width: 60%;
+    width: 65%;
   }
   .gallery-grid {
     min-height: 60vh;
